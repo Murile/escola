@@ -1,0 +1,8 @@
+.qr-container {
+    display: flex;
+    flex-direction: column;
+
+    .qrcode {
+        display: flex;
+    }
+}
