@@ -1,12 +1,18 @@
+import { useNavigate } from 'react-router-dom';
 import './index.scss'
-import Header from '../../components/header';
+
 
 export default function Qrcode() {
+
+    const navigate = useNavigate();
+
     return(
         <main className='qr-container'>
-            <Header />
+            <div className='header-container'>
+                <img src="/assets/img/picwish (1).png" width='150px' onClick={() => navigate('/')} />
+            </div>
             <section className='qrcode'>
-                <img src="assets/img/alemao.png" alt="" />
+                <h1>Acesse pelo celular ou compartilhe o nosso catálogo com um amigo!</h1>
                 <div>
                     <h1>qrcode pika</h1>
                     <img src="assets/img/prete.jpg" alt="" />
