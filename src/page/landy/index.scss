@@ -1,1267 +1,154 @@
-.main {
-  display: flex;
-  flex-direction: column;
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #1C1C1C;
+    height: 200EM;
+
+    .div-carrosel{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-top: em;
+        justify-content: space-evenly;
+        background-image: url('../../../public//assets/img/lll.png');
+        height: 714px;
+        background-attachment: fixed;
+    }
+
+    .img-logo{
+        margin-bottom: 35em;
+    }
+
+    .img-bemvindo{
+        position: absolute;
+    }
+
+  
+
+    .Gracinha{
+        width: 1920px;
+        height: 20em;
+        background-image: url('../../../public/assets/img/Group 24833 1.png');
+        background-repeat: no-repeat;
+        margin-top: -2.9em;
+    }
+
+    .titulo-igreja{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 30px;
+        color: #fff;
+        margin-top: 5em;
+        text-align: center;
+    }
+
+    .bv{
+        position: absolute;
+        margin-top: 15em;
+        margin-left: 5em;
+    }
+
+    .bv h1{
+        font-family: 'Lexend Deca', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+
+        color: #FFFFFF;
+    }
+
+    .texto-bv{
+        margin-top: -1em;
+        margin-bottom: -1.5em;
+    }
+
+    .texto-bv-2{
+        margin-bottom: -1em;
+    }
+
+
+    .bv span{
+        color: #ff0000;
+    }
+
+    .linha-cima-bv{
+        width: 269px;
+        height: 0px;
+        border: 4px solid #FFFFFF;
+    }
+
+    .linha-baixo-bv{
+        width: 600px;
+        height: 0px;
+        border: 4px solid #FFFFFF;
+        transform: rotate(-0.39deg);
+    }
+
+    .faixa-1{
+        margin-top: 10em;
+        background-color: #1C1C1C;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: #fff;
+    }
+
+    .esquerda-1{
+        font-family: 'Lexend Deca', sans-serif;
+        font-style: Bold;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 4em;
+        margin-left: 10em;
+    }
+
+    .esquerda-1 span{
+        color:#EB2B2B;
+    }
+
+    .direita-1{
+        width: 55em;
+        font-family: 'Lexend Deca', sans-serif;
+        font-style: Bold;
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 4em;
+        margin-left: 10em;
+    }
+
+    .bloco-final{
+        margin-top: 10em;
+    }
+
+    .faixa-3 h1{
+        font-family: 'Lexend Deca', sans-serif;
+        font-style: Bold;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 5em;
+    }
+    .final{
+        margin-top: 5em;
+        background-image: url('../../../public//assets/img//bloco.png');
+        background-repeat: no-repeat;
+        height: 190em;
+    }
 
-  width: 100%;
-  height: auto;
-
-  .fx-one {
-
-      display: flex;
-      flex-direction: column;
-      background-color: rgb(199, 66, 66);
-      height: 600px;
-  }
-
-  .one-nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      background-color: #000000;
-      height: 50px;
-  }
-
-  .one-nav img {
-      width: 80px;
-  }
-
-  .one-nav a {
-      font-family: 'medio';
-      font-size: 15px;
-      color: white;
-      text-decoration: none;
-  }
-
-  .one-nav-text {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      width: 45%;
-  }
-
-  .one-nav-width {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      width: 95%;
-  }
-
-  .one-nav-button {
-      padding: 4px 25px;
-      border: solid #d07718;
-      border-radius: 50px;
-      background-color: #d07718;
-  }
-
-  .one-hero-section {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      height: 500px;
-  }
-
-  .one-hero-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      text-align: center;
-      align-items: center;
-      height: 270px;
-      width: 400px;
-      margin-top: 60px;
-  }
-
-  .one-hero-text h1 {
-      font-family: 'medio';
-      font-size: 25px;
-  }
-
-  .one-hero-text p {
-      font-family: 'regular';
-      font-size: 16px;
-  }
-
-  .one-button {
-      width: 130px;
-      padding: 3px;
-
-      border: solid #ffaa23;
-      background-color: #ffaa23;
-      border-radius: 50px;
-  }
-
-  .one-button a {
-      color: #000000;
-      text-decoration: none;
-      font-family: 'medio';
-  }
-
-  .one-hero-image img {
-      width: 300px;
-  }
-
-  .fx-two {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 600px;
-  }
-
-  .fx-two-hero {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-      height: 400px;
-  }
-
-  .two-hero-images {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      width: 400px;
-  }
-
-  .cafe {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 300px;
-  }
-
-  .cro img {
-      width: 150px;
-
-  }
-
-  .cafe img {
-      width: 225px;
-  }
-
-  .two-hero-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 600px;
-      height: 250px;
-  }
-
-  .two-hero-text h1 {
-      color: #d07718;
-      font-family: 'medio';
-      font-size: 25px;
-      letter-spacing: 1px;
-  }
-
-  .two-hero-text p {
-      font-family: 'regular';
-      font-size: 16px;
-  }
-
-  .two-button {
-      border: #ffaa23;
-      border-radius: 50px;
-      text-align: center;
-      background-color: #ffaa23;
-      padding: 3px;
-      width: 100px;
-
-  }
-
-  .two-button a {
-      text-decoration: none;
-      font-family: 'medio';
-      letter-spacing: 1px;
-      color: #ffffff;
-  }
-
-  .fx-three {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      height: 600px;
-      background-color: #ffcc80;
-
-  }
-
-  .three-hero {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 75%;
-      height: 300px;
-  }
-
-  .three-hero img {
-      width: 70px;
-  }
-
-  .three-hero-bolo {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      text-align: center;
-      width: 295px;
-  }
-
-  .three-hero-ingredientes {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      text-align: center;
-      width: 295px;
-  }
-
-  .three-hero-entrega {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      text-align: center;
-      width: 295px;
-  }
-
-  .three-hero-bolo {
-      width: 280px;
-  }
-
-  .three-hero h1 {
-      font-family: 'medio';
-      font-size: 20px;
-  }
-
-  .three-hero p {
-      font-family: 'regular';
-      font-size: 13px;
-  }
-
-  .fx-four {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      text-align: start;
-      height: 800px;
-      bottom: 300px;
-  }
-
-  .fx-four-hero {
-      position: relative;
-      bottom: 50px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 570px;
-
-      z-index: -1;
-
-  }
-
-  .fx-four-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
-      text-align: center;
-      height: 100px;
-      width: 400px;
-  }
-
-  .fx-four-text h1 {
-      color: #d07718;
-      font-family: 'regular';
-      font-size: 25px;
-  }
-
-  .fx-four-text p {
-      font-family: 'regular';
-      font-size: 16px;
-  }
-
-  .fx-four-images {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 400px;
-  }
-
-  .fx-four-images img {
-      width: 120px;
-  }
-
-  .linha-1 {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 380px;
-
-      position: relative;
-  }
-
-  .linha-2 {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 380px;
-
-      position: relative;
-      top: 10px;
-  }
-
-  .linha-3 {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 380px;
-
-      position: relative;
-      top: 20px;
-  }
-
-  .fx-four-coffee img,
-  .fx-four-coffee2 img,
-  .fx-four-coffee3 img {
-      width: 250px;
-  }
-
-  .fx-four-coffee {
-      position: relative;
-      transform: rotate(35deg);
-      bottom: 640px;
-      left: 460px;
-
-  }
-
-  .fx-four-coffee2 {
-      position: relative;
-      right: 300px;
-      bottom: 700px;
-  }
-
-  .fx-four-coffee3 {
-      position: relative;
-      left: 430px;
-      bottom: 800px;
-      transform: rotate(300deg);
-  }
-
-  .fx-five {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      background-color: #603601;
-      height: 500px;
-  }
-
-  .fx-five-title {
-      font-family: 'regular';
-      font-size: 25px;
-      color: #ffffff;
-  }
-
-  .fx-five-hero {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 75%;
-  }
-
-  .fx-five-local iframe {
-      width: 500px;
-      height: 350px;
-      border-radius: 8px;
-  }
-
-  .endereco {
-
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      align-self: center;
-      justify-content: space-between;
-      height: 200px;
-
-      color: white;
-      font-family: 'regular';
-      font-size: 15px;
-  }
-
-  .fx-five-button img {
-      position: relative;
-      top: 3px;
-      width: 20px;
-  }
-
-  .fx-five-button {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      padding-bottom: 3px;
-
-      background-color: #ffffff;
-      color: #000000;
-
-      width: 150px;
-      border-radius: 20px;
-
-      font-family: 'medio';
-      transition: .5s;
-
-  }
-
-  .fx-five-button:hover {
-      transform: scale(1.2);
-      cursor: pointer;
-  }
-
-  .rodape {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 500px;
-      background-color: #ffcc80;
-  }
-
-  .rodape-hero {
-      display: flex;
-      flex-direction: row;
-      width: 75%;
-  }
-
-  .sua-cafeteria {
-      display: flex;
-      flex-direction: column;
-  }
-
-  .sua-cafeteria h1 {
-      font-family: 'medio';
-      font-size: 32px;
-
-  }
-
-  .nacionalidade p {
-      font-family: 'regular';
-      font-size: 16px;
-  }
-
-  .nacionalidade img {
-      width: 30px;
-  }
-
-  .nacionalidade {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      width: 220px;
-  }
-
-  .redes {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-  }
-
-  .redes img {
-      width: 70px;
-  }
-
-  .produto,
-  .produto1,
-  .produto2,
-  .produto3 {
-      display: flex;
-      flex-direction: column;
-      line-height: 40px;
-  }
-
-  .produto a,
-  .produto1 a,
-  .produto2 a,
-  .produto3 a {
-      font-family: 'regular';
-      font-size: 17px;
-      color: #000000;
-      text-decoration: none;
-  }
-
-  .rodape-direita,
-  .rodape-esquerda {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      width: 1000px;
-
-  }
-
-  .rodape-logo img {
-      width: 200px;
-      position: relative;
-      left: 570px;
-  }
 }
 
-@media(max-width:720px) {
-  .main {
-      overflow-x: hidden;
-
-      .one-nav {
-          position: relative;
-          bottom: 85px;
-      }
-
-      .hidden {
-          visibility: hidden;
-      }
-
-      .one-hero-section {
-          flex-direction: column;
-          justify-self: flex-start;
-          align-self: center;
-          justify-content: space-around;
-          width: 480px;
-          height: 600px;
-      }
-
-      .one-hero-image {
-          align-self: flex-start;
-          padding-left: 10px;
-      }
-
-      .one-hero-image img {
-          width: 250px;
-      }
-
-      .fx-one {
-          justify-content: space-evenly;
-
-          height: 900px;
-      }
-
-      .fx-two {
-          height: 700px;
-      }
-
-      .fx-two-hero {
-          height: 600px;
-          flex-direction: column;
-      }
-
-      .two-hero-images {
-          width: 250px;
-      }
-
-      .cro img {
-          width: 100px;
-
-      }
-
-      .cafe img {
-          width: 135px;
-      }
-
-      .cafe {
-          height: 200px;
-      }
-
-      .two-hero-text {
-          width: 400px;
-      }
-
-      .two-hero-text h1 {
-          font-size: 18px;
-      }
-
-      .two-hero-text p {
-          font-size: 13px;
-      }
-
-      .fx-three {
-          height: 900px;
-          justify-content: center;
-      }
-
-      .three-hero {
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
-          height: 750px;
-      }
-
-      .three-hero-bolo,
-      .three-hero-entrega,
-      .three-hero-ingredientes {
-          height: 400px;
-      }
-
-      .fx-four-hero {
-          height: 550px;
-      }
-
-      .fx-four-coffee,
-      .fx-four-coffee2,
-      .fx-four-coffee3 {
-          position: fixed;
-          visibility: hidden;
-      }
-
-      .linha-1 {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          width: 300px;
-
-          position: relative;
-      }
-
-      .linha-2 {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          width: 300px;
-
-          position: relative;
-          top: 10px;
-      }
-
-      .linha-3 {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          width: 300px;
-
-          position: relative;
-          top: 20px;
-      }
-
-      .fx-four-images {
-          padding: 20px;
-      }
-
-
-      .linha-1 img,
-      .linha-2 img,
-      .linha-3 img {
-          width: 100px;
-      }
-
-      .linha-1,
-      .linha-2,
-      .linha-3 {
-          width: 350px;
-      }
-
-      .fx-five {
-          width: 720px;
-          height: 700px;
-      }
-
-      .fx-five-hero {
-          flex-direction: column;
-          justify-content: space-between;
-          height: 500px;
-      }
-
-      .endereco {
-          justify-content: space-around;
-          align-content: flex-end;
-      }
-
-      .fx-five-local iframe {
-          width: 450px;
-          height: 300px;
-      }
-
-      .rodape {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          height: 900px;
-      }
-
-      .rodape-hero {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          height: 800px;
-          width: 300px;
-      }
-
-      .sua-cafeteria img {
-          width: 150px;
-      }
-
-      .rodape-direita,
-      .rodape-esquerda {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-self: center;
-          width: 400px;
-      }
-
-      .rodape {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          height: 900px;
-      }
-
-      .rodape-hero {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          height: 800px;
-          width: 300px;
-      }
-
-      .sua-cafeteria {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          height: 180px;
-      }
-
-      .rodape-direita,
-      .rodape-esquerda {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-self: center;
-          width: 400px;
-      }
-
-  }
-}
-
-@media(max-width:480px) {
-  .main {
-      overflow-x: hidden;
-      .fx-one {
-          justify-content: space-evenly;
-          height: 750px;
-      }
-
-      .one-nav {
-          position: relative;
-          bottom: 65.5px;
-          padding-top: 15px;
-          height: 60px;
-      }
-
-      .hidden {
-          visibility: hidden;
-      }
-
-      .one-nav img {
-          position: absolute;
-          top: 180px;
-          right: 17.5em;
-          padding-left: 8px;
-          width: 130px;
-      }
-
-      .one-nav-button {
-          padding: 1px 13px;
-      }
-
-      .butao {
-          font-size: 5px;
-      }
-
-
-      .one-hero-text {
-          flex-direction: column;
-          width: 250px;
-      }
-
-      .one-hero-text h1 {
-          font-size: 16px;
-      }
-
-      .one-hero-text p {
-          font-size: 12px;
-      }
-
-      .one-hero-section {
-          flex-direction: column;
-          justify-content: space-between;
-          height: 550px;
-      }
-
-      .one-hero-image {
-          display: flex;
-          flex-direction: column-reverse;
-          align-items: center;
-          padding-right: 100px;
-          width: 300px;
-          height: 300px;
-      }
-
-      .one-hero-image img {
-          width: 200px;
-      }
-
-
-
-      .fx-two {
-          height: 600px;
-      }
-
-      .fx-two-hero {
-          height: 800px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-      }
-
-      .cro img {
-          width: 90px;
-      }
-
-      .cafe img {
-
-          width: 125px;
-      }
-
-      .cafe {
-          position: absolute;
-          right: 95px;
-          top: 62em;
-          height: 20px;
-      }
-
-      .cro {
-          position: absolute;
-          top: 62em;
-          right: 230px;
-      }
-
-      .two-hero-text h1 {
-          font-size: 18px;
-      }
-
-      .two-hero-text p {
-          font-size: 15px;
-      }
-
-      .two-hero-text {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          height: 250px;
-          width: 390px;
-      }
-
-
-      .fx-three {
-          height: 800px;
-      }
-
-      .three-hero {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          height: 800px;
-
-      }
-
-      .three-hero-ingredientes {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
-          text-align: center;
-          width: auto;
-          height: 250px;
-      }
-
-
-
-      .three-hero-entrega {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
-          text-align: center;
-          width: 340px;
-          height: 250px;
-      }
-
-      .three-hero-bolo {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
-          text-align: center;
-          width: 341px;
-          height: 250px;
-      }
-
-      .three-hero h1 {
-          font-size: 18px;
-      }
-
-      .three-hero p {
-          font-size: 15px;
-      }
-
-      .three-hero img {
-          position: absolute;
-          top: 12.6em;
-          right: 8.5em;
-          width: 65px;
-      }
-
-    
-
-
-      .fx-four-hero{
-          position: relative;
-          top: 1em;
-          justify-content: space-between;
-          height: 450px;
-      }
-
-      .fx-four{
-          height: 500px;
-      }
-
-      .fx-four-images img {
-          width: 65px;
-          height: min-content;
-      }
-      .one, .for, .seven{
-          position: absolute;
-          left: 60px;
-      }
-      .two, .five, .oito{
-          position: absolute;
-          left: 130px;
-      }
-      .three,.six,.nine{
-          position: absolute;
-          left: 200px;
-      }
-      .seven,.oito,.nine{
-          bottom:6em;
-      }
-           
-      .fx-four-images{
-          position: relative;
-          right: 4.5em;
-          top: 3em;
-          height: 200px;    
-      }
-
-      .fx-four-text{
-          position: relative;
-          left: 2em;
-          width: 300px;
-      }
-
-      .fx-four-text h1{
-          font-size: 18px;
-      }
-
-      .fx-four-text p{
-          font-size: 13px;
-      }
-      .fx-five {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-evenly;
-          align-items: center;
-          height: 550px;
-          width: 480px;
-      }
-
-      .fx-five-title {
-          font-size: 20px;
-          margin-right: 2.7em;
-      }
-
-      .fx-five-hero {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-evenly;
-          width: 360px;
-          margin-right: 2em;
-      }
-
-      .fx-five-local iframe {
-          width: 330px;
-          height: 200px;
-          align-self: center;
-      }
-    
-
-      .endereco {
-
-          display: flex;
-          flex-direction: column;
-          text-align: center;
-          align-self: center;
-          justify-content: space-between;
-          height: 200px;
-
-          color: white;
-          font-family: 'regular';
-          font-size: 13px;
-          margin-top: 1.5em;
-          margin-bottom: -3em;
-      }
-
-      .fx-five-button img {
-          position: relative;
-          margin-top: 3px;
-          margin-bottom: 3px;
-          margin-left: 1px;
-          width: 20px;
-      }
-
-      .fx-five-button {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          align-items: center;
-          padding-bottom: 3px;
-          margin-bottom: 5em;
-
-          background-color: #ffffff;
-          color: #000000;
-
-          width: 190px;
-          border-radius: 20px;
-
-          font-family: 'medio';
-          transition: .5s;
-
-      }
-
-      .fx-five-button:hover {
-          transform: scale(1.2);
-          cursor: pointer;
-      }
-
-      .sua-cafeteria {
-          height: 100px;
-          position: relative;
-          right: 50px;
-      }
-
-  }
-}
-
-@media(max-width:300px) {
-  .main {
-      width: 300px;
-
-      .fx-two {
-          height: 450px;
-      }
-
-      .two-hero-images {
-          position: relative;
-          bottom: 50em;
-          left: 7em;
-      }
-
-      .two-hero-text {
-          position: relative;
-          left: 8px;
-          bottom: 50px;
-          width: 280px;
-          height: 150px;
-      }
-
-      .two-hero-text p {
-          font-size: 12px;
-      }
-
-      .two-hero-text h1 {
-          font-size: 14px;
-      }
-
-      .two-button:hover {
-          font-size: 10px;
-          cursor: pointer;
-      }
-
-
-      .fx-three{
-          height: 800px;
-      }
-
-      .three-hero{
-          justify-content: space-evenly;
-      }
-
-      .three-hero-ingredientes {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
-          text-align: center;
-          width: 300px;
-          height: 180px;
-      }
-
-      .three-hero-entrega {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
-          text-align: center;
-          width: 280px;
-          height: 180px;
-      }
-
-      .three-hero-bolo {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          align-items: center;
-          text-align: center;
-          width: 280px;
-          height: 180px;
-      }
-
-      .three-hero img {
-          position: absolute;
-          top: 12.6em;
-          right: 7.3em;
-          width: 58px;
-      }
-
-      .three-hero h1 {
-          font-size: 14px;
-      }
-
-      .three-hero p {
-          font-size: 12px;
-      }
-
-      .fx-four-hero{
-          margin-top: 70px;
-          justify-content: space-between;
-          height: 500px;
-      }
-
-      .fx-four{
-          height: 500px;
-      }
-
-      .fx-four-images img {
-          width: 50px;
-          height: min-content;
-      }
-      .one, .for, .seven{
-          position: absolute;
-          left: 60px;
-      }
-      .two, .five, .oito{
-          position: absolute;
-          left: 130px;
-      }
-      .three,.six,.nine{
-          position: absolute;
-          left: 200px;
-      }
-
-      .one,.two,.three{
-          top: 10px;
-      }
-           
-      .fx-four-images{
-          height: 200px;
-      }
-
-      .fx-four-text{
-          width: 300px;
-      }
-
-      .fx-four-text h1{
-          font-size: 14px;
-      }
-
-      .fx-four-text p{
-          font-size: 12px;
-      }
-
-      .fx-five{
-          height: 400px;
-          width: 300px;
-      }
-
-      .fx-five p{
-          font-size: 11px;
-      }
-
-      .fx-five-title p{
-          font-size: 14px;
-      }
-
-      .fx-five-hero{
-          height: 300px;
-          align-items: center;
-      }
-
-      .endereco{
-          width: 300px;
-      }
-
-      .fx-five-local iframe{
-          width: 270px;
-          height: 160px;
-      }
-      .fx-five-button{
-          align-self: center;
-          padding: 1px;
-          height: 25px;
-          width: 110px;
-      }
-      .fx-five-button img{
-          width: 15px;
-      }
-
-      .rodape{
-          width: 300px;
-      }
-      .rodape-hero p{
-          font-size: 12px;
-      }
-      .rodape-hero a{
-          font-size: 12px;
-      }
-      .rodape-hero h1{
-          font-size: 25px;
-      }
-      
-
-      .sua-cafeteria{
-          height: 80px;
-          left: 20px;
-      }
-      .rodape-esquerda{
-          width: 270px;
-      }
-
-      .rodape-direita{
-          width: 270px;
-      }
-  }
+@media (min-width: 414){
+    .div-carrosel{
+        display: flex;
+        width: 400px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-image: url('../../../public//assets/img/lll.png');
+        height: 714px;
+        background-attachment: fixed;
+    }
+    bv{
+        opacity: 0;
+    }
 }
